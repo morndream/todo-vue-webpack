@@ -1,0 +1,139 @@
+#app[data-v-1dbc2eea] {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#cover[data-v-1dbc2eea] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #999;
+  opacity: 0.9;
+  z-index: -1;
+}
+.main-header[data-v-ad601dae] {
+  text-align: center;
+}
+.main-header h1[data-v-ad601dae] {
+  font-size: 100px;
+  color: rgba(175,47,47,0.4);
+  font-weight: 100;
+  margin: 20px;
+}
+.real-app[data-v-27b4e7a8] {
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px #666;
+}
+.add-input[data-v-27b4e7a8] {
+  position: relative;
+  margin: 0;
+  width: 90%;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.4em;
+  border: 0;
+  outline: none;
+  color: inherit;
+  border: 1px solid #999;
+  border-shadow: inset 0 -1px 5px 0 rgba(0,0,0,0.06);
+  box-size: border-box;
+  padding: 16px 0px 16px 60px;
+  border: none;
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0.1);
+}
+.todo-item[data-v-a6b2c184] {
+  position: relative;
+  background-color: #fff;
+  font-size: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.todo-item:hover .destory[data-v-a6b2c184]:after {
+  content: 'x';
+}
+.todo-item label[data-v-a6b2c184] {
+  white-space: pre-line;
+  word-break: break-all;
+  padding: 15px 60px 15px 15px;
+  margin-left: 45px;
+  display: block;
+  line-height: 1.2;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.todo-item.completed label[data-v-a6b2c184] {
+  color: #d9d9d9;
+  text-decoration: line-through;
+}
+.todo-item .toggle[data-v-a6b2c184] {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 6px;
+  bottom: 0;
+  margin: auto 0;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+}
+.todo-item .toggle[data-v-a6b2c184]:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACbElEQVRYR8WX4XHaQBCF33ZAB8EV2K4grBowriC4gpAK4lQQUkGcCkwauI0rsFNBlA7oYDOPOWkOIemEUIab4RfD3be7b3cfggsfufD7OBnAzGbufi0iNwBmMYDS3cuiKF5ODWgwgJmtANwBWGYe2QL4pqq/hsBkAcxsAeArgBt3/y0iTwC2qlqmD5gZM7Jw95WIXAMgwCdVfesD6QUwszUfd/cXEXkcGpWZLd19IyLvADyoKqFbTyeAmfFHH2I6CXLySe74oqqPbRe0AlSR5+iHEJnZBsDHrruOAGLN7ZzIm2AxExTwbVM7RwAhBIpnVhQFRTXJia37JiKvqnqfXnoAEFvtOwAdKrihhF13NwG27j6fMvoUMIRQighbuBZ1E8Bj71I4k58oyDtVvaourwES8VEovcNjLBnnA4DnKMb9GynA/ktVzU7HMwA4VdlhtcZSAA6Kz/8TgOBmxjLfqyp3xkEGLg5w8RIc1Wdsrbt+l4jwqpqIB4ILIey4btM+nRKCI9ndF0VRzI/aMAqEG/B92qdTArQF2BxEVRl6d/gYKDPbixxAnf6DLqgu5TKKRoIDaTfmsZZtSO/4B8BPVaW1q0/bOqb1IgSH0sMUACEETr05jWx2HUctkJJbkYI8CyJxRa0jvs+SVRCcWNTESeWgB4hjl76iU1M5U0pz+SQiHJ9rVf2RK0l8mBZs7e4iIou+5ZZdPGbGnqWCaVCZBXoGZmXHPyLVHxW6KBHhNOWH0ROW0L2ZywJUEUffv3L3ZeySo2S4+18aDgCbpti6MjcYIL0gZoWZYaRVhOXQR3vbMFfjqb8flYEpIf4BMQ06MLZCNXgAAAAASUVORK5CYII=);
+}
+.todo-item .toggle[data-v-a6b2c184]:checked:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABIElEQVRYR+2WsQ6CMBCGexo0wsIjsDiLMws8gk/mI6GDs7qZuPgILhIR45lTmpjaYgslDMLE0Pb7+tPeAazjBzrms16gT+A/Eghw6ztFFhxH0U68da0nQPBxlqWMYfBwIBElWhXgcAAWljtfH9wo/kyhNQERjoj73PXiE8zPrQvowknEegImcOsCpnCrAnXg1gTqwpUC09smHN5xeZ14C/HUioWkCVwqQPBBgSkA+Ihsl7tuopJoCpcKvBe9rABgRgNUEjbgyk/wS8IWvPIQqiRoEtV2Xl5VFU73V6+yEMkkXtZlbW8K17qGogTfmQ24lgAN+k5C3lh0Y6/VjLgETZZ1tTpw7QT44iRB77+Kk4mM9W5oAjdOwHRxnfF9An0CT1FO/SElD7GGAAAAAElFTkSuQmCC);
+}
+.todo-item .destory[data-v-a6b2c184] {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  color: #999;
+  font-size: 36px;
+  border: none;
+  outline: none;
+  background: none;
+}
+.helper[data-v-694d7f5c] {
+  display: -webkit-box;
+  display: flex;
+  padding: 16px;
+  background: #fff;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+.tabs span[data-v-694d7f5c] {
+  padding: 6px;
+  border-radius: 5px;
+}
+.tabs .actived[data-v-694d7f5c] {
+  border: 1px solid #f00;
+}
+#footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #bfbfbf;
+  font-size: 10px;
+  text-shadow: 0 1px 0 #aaa;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url(3-aaa.jpg);
+  background-size: cover;
+  background-position: center;
+  font: 14px;
+  color: #4d4d4d;
+  font-weight: 300;
+}
